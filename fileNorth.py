@@ -17,6 +17,7 @@ def bedtime(tired_level):
     else:
         return "Bed Time is NOW!"
 
-tired_level = input("What is your tired level on a scale between 1-10?:")
+tired_level = int(input("What is your tired level on a scale between 1-10?:"))
 
 print(bedtime(tired_level))
+
